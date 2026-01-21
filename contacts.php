@@ -83,7 +83,7 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-contacts-ico.png">
 						</div>
 						<div class="float-right">
-							<span>Telegram:</span> @NikolaevAA2023
+							<span>Telegram:</span> @Plitniy_Market
 						</div>
 						<div style="clear: both;"></div>
 					</li>

@@ -88,13 +88,13 @@
 					</div>
 					<div class="col-3 col-xxl-2">
 						<a class="ico-button pe-1" href="whatsapp://send?phone=+79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.png"></a>
-						<a class="ico-button pe-1" href="tg://resolve?domain=NikolaevAA2023"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
+						<a class="ico-button pe-1" href="tg://resolve?domain=Plitniy_Market"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
 						<a class="ico-button pe-1" href="viber://chat?number=79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-circle-ico.svg"></a>
 						<!--a class="ico-button" href="https://vk.com/stocklinecompany"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/vk-ico.png"></a-->
 					</div>
 					<div class="col-2 text-end">
-						<a href="tel:‪‪84957928283‬‬" class="header-phone">‪8 <span>(495)</span> 792-82-83</a>
-						<a href="#" class="header-callback" data-bs-toggle="modal" data-bs-target="#callbackModal">‪Обратный звонок‬</a>
+						<a href="tel:+79037928283" class="header-phone"> 8 <span>(903)</span> 792-82-83</a>
+						<a href="#" class="header-callback" data-bs-toggle="modal" data-bs-target="#callbackModal"> Обратный звонок </a>
 					</div>
 				</div>
 			</div>
@@ -119,7 +119,7 @@
 									<!-- Mobile menu -->
 									<li class="nav-item d-xl-none pt-3">
 										<a class="ico-button pe-2" href="whatsapp://send?phone=+79037928283"><img src="'.get_template_directory_uri().'/img/ico/whatsapp-ico.png"></a>
-										<a class="ico-button pe-2" href="tg://resolve?domain=NikolaevAA2023"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.png"></a>
+										<a class="ico-button pe-2" href="tg://resolve?domain=Plitniy_Market"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.png"></a>
 										<a class="ico-button pe-2" href="viber://chat?number=79037928283"><img src="'.get_template_directory_uri().'/img/ico/viber-circle-ico.svg"></a>
 										<!--a class="ico-button" href="https://vk.com/stocklinecompany"><img src="'.get_template_directory_uri().'/img/ico/vk-ico.png"></a-->
 									</li>

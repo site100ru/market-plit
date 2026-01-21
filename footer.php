@@ -52,7 +52,7 @@
 							</ul>
 						</div>
 						<div class="col-lg-3 text-end col-xxl-2">
-							<a href="tel:‪84957928283‬" class="contacts-phone">‪8 <span>(495)</span> 792-82-83</a>
+							<a href="tel:+79037928283" class="contacts-phone"> 8 <span>(903)</span> 792-82-83</a>
 						</div>
 					</div>
 					<!-- End Desktop version -->
@@ -87,7 +87,7 @@
 							</ul>
 						</div>
 						<div class="col-12">
-							<a href="tel:‪84957928283‬" class="contacts-phone">‪8 <span>(495)</span> 792-82-83‬</a>
+							<a href="tel:+79037928283" class="contacts-phone"> 8 <span>(903)</span> 792-82-83</a>
 						</div>
 					</div>
 					<!-- END Mobail version -->
@@ -116,14 +116,14 @@
 											<div style="font-size: 12px; font-family: HelveticaNeueCyr-Light; text-transform: none;">
 												<img src="https://unistyle-spb.ru/wp-content/themes/unistyle-spb/img/ico/location.webp" style="width: 10px;" class="me-1">Санкт-Петербург
 											</div>
-											<a class="nav-link top-menu-tel pt-1 pb-0" href="tel:+78123362246">+7 (812) 336-22-46</a>
+											<a class="nav-link top-menu-tel pt-1 pb-0" href="tel:+79037928283">+7 (903) 792-82-83</a>
 											<div style="font-size: 12px; font-family: HelveticaNeueCyr-Light; text-transform: none;">
 												<img src="https://unistyle-spb.ru/wp-content/themes/unistyle-spb/img/ico/clock-ico.webp" style="width: 10px; position: relative; top: -1px;" class="me-1">Ежедневно с 9:00 до 21:00
 											</div>
 										</li>
 										<li class="nav-item d-xl-none pt-3">
 											<a class="ico-button pe-2" href="whatsapp://send?phone=+79632425462"><img src="'.get_template_directory_uri().'/img/ico/whatsapp-ico.svg"></a>
-											<a class="ico-button pe-2" href="tg://resolve?domain=stock_line_msk"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.svg"></a>
+											<a class="ico-button pe-2" href="tg://resolve?domain=Plitniy_Market"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.svg"></a>
 											<!--a class="ico-button pe-2" href="vk.com/stocklinecompany"><img src="img/ico/inst-ico.png"></a-->
 											<!--a class="ico-button" href="#"><img src="/img/ico/vk-ico.png"></a-->
 										</li>
@@ -205,7 +205,7 @@
 						<a class="nav-link ico-button px-0" href="whatsapp://send?phone=+79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.png"></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link ico-button pe-0" href="tg://resolve?domain=NikolaevAA2023"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
+						<a class="nav-link ico-button pe-0" href="tg://resolve?domain=Plitniy_Market"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link ico-button pe-0" href="viber://chat?number=79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-circle-ico.svg"></a>
@@ -276,13 +276,13 @@
 		<a data-bs-toggle="modal" data-bs-target="#callbackButtonModal"><div class="callback-form-button-ico"></div></a>
 	</div>
 	<div id="phoneBtn" class="callback-phone-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Позвонить">
-		<a href="tel:+74957928283"><div class="callback-phone-button-ico"></div></a>
+		<a href="tel:+79037928283"><div class="callback-phone-button-ico"></div></a>
 	</div>
 	<div id="whatsappBtn" class="callback-whatsapp-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
 		<a href="whatsapp://send?phone=+79037928283"><div class="callback-whatsapp-button-ico"></div></a>
 	</div>
 	<div id="telegramBtn" class="callback-telegram-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
-		<a href="tg://resolve?domain=NikolaevAA2023"><div class="callback-telegram-button-ico"></div></a>
+		<a href="tg://resolve?domain=Plitniy_Market"><div class="callback-telegram-button-ico"></div></a>
 	</div>
 </div>
 <!-- /Callback button HTML -->
