@@ -21,8 +21,8 @@
 	</div>
 </header>
 <!-- /Header -->
-		
-		
+
+
 <!-- Payment shipping and returns section -->
 <section class="bg-white">
 	<div class="container py-5">
@@ -87,12 +87,21 @@
 						</div>
 						<div style="clear: both;"></div>
 					</li>
-					<li class="nav-item mb-3 me-3 text-dark">
+					<!--li class="nav-item mb-3 me-3 text-dark">
 						<div class="float-left">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-ico.svg">
 						</div>
 						<div class="float-right">
 							<span>Viber:</span> 8 (903) 792-82-83
+						</div>
+						<div style="clear: both;"></div>
+					</li-->
+					<li class="nav-item mb-3 me-3 text-dark">
+						<div class="float-left">
+							<a href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png"></a>
+						</div>
+						<div class="float-right">
+							<span>Max:</span> 8 (903) 792-82-83
 						</div>
 						<div style="clear: both;"></div>
 					</li>

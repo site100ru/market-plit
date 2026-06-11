@@ -56,7 +56,7 @@
 						</div>
 					</div>
 					<!-- End Desktop version -->
-					
+
 					<!-- Mobail version -->
 					<div class="row d-lg-none">
 						<div class="col-12 mb-4">
@@ -94,8 +94,8 @@
 				</nav>
 			</div>
 		</div>
-		
-		
+
+
 		<div class="row d-none d-lg-block">
 			<div class="col-md-12">
 				<nav id="contacts-menu-2" class="navbar navbar-expand-xl navbar-light mb-3">
@@ -134,8 +134,8 @@
 								'walker' => new bootstrap_5_wp_nav_menu_walker()
 							));
 						?>
-						
-						
+
+
 						<!--ul class="navbar-nav m-auto mb-2 mb-lg-0">
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="/">Главная</a>
@@ -176,7 +176,7 @@
 							<li class="nav-item">
 								<a class="nav-link" href="contacts.html">Контакты</a>
 							</li-->
-							<!-- Mobile menu --
+						<!-- Mobile menu --
 							<li class="nav-item d-xl-none">
 								<a class="nav-link" href="tel:‪89037512663">8 <span>(903)</span> 751-26-63</a>
 							</li>
@@ -195,9 +195,9 @@
 				</nav>
 			</div>
 		</div>
-		
-		
-		
+
+
+
 		<div class="row justify-content-center pt-3">
 			<div class="col-md-8">
 				<ul class="nav justify-content-md-center mb-2 mb-lg-0">
@@ -208,7 +208,8 @@
 						<a class="nav-link ico-button pe-0" href="tg://resolve?domain=Plitniy_Market"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link ico-button pe-0" href="viber://chat?number=79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-circle-ico.svg"></a>
+						<!--a class="nav-link ico-button pe-0" href="viber://chat?number=79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-circle-ico.svg"></a-->
+						<a class="nav-link ico-button pe-0" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png"></a>
 					</li>
 					<!--li class="nav-item">
 						<a class="nav-link ico-button" href="https://vk.com/stocklinecompany"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/vk-ico.png"></a>
@@ -216,8 +217,8 @@
 				</ul>
 			</div>
 		</div>
-		
-		
+
+
 		<div class="row">
 			<div class="col-lg-8 pt-4 pt-lg-2">
 				<div class="row d-lg-none justify-content-center">
@@ -271,18 +272,26 @@
 	<div id="callbackBtn" class="callback-button" onclick="callbackButtonClick();">
 		<div id="btnIco" class="callback-button-ico"></div>
 	</div>
-	
+
 	<div id="formBtn" class="callback-form-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Перезвонить Вам?">
-		<a data-bs-toggle="modal" data-bs-target="#callbackButtonModal"><div class="callback-form-button-ico"></div></a>
+		<a data-bs-toggle="modal" data-bs-target="#callbackButtonModal">
+			<div class="callback-form-button-ico"></div>
+		</a>
 	</div>
 	<div id="phoneBtn" class="callback-phone-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Позвонить">
-		<a href="tel:+79037928283"><div class="callback-phone-button-ico"></div></a>
+		<a href="tel:+79037928283">
+			<div class="callback-phone-button-ico"></div>
+		</a>
 	</div>
 	<div id="whatsappBtn" class="callback-whatsapp-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
-		<a href="whatsapp://send?phone=+79037928283"><div class="callback-whatsapp-button-ico"></div></a>
+		<a href="whatsapp://send?phone=+79037928283">
+			<div class="callback-whatsapp-button-ico"></div>
+		</a>
 	</div>
 	<div id="telegramBtn" class="callback-telegram-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
-		<a href="tg://resolve?domain=Plitniy_Market"><div class="callback-telegram-button-ico"></div></a>
+		<a href="tg://resolve?domain=Plitniy_Market">
+			<div class="callback-telegram-button-ico"></div>
+		</a>
 	</div>
 </div>
 <!-- /Callback button HTML -->
@@ -354,9 +363,9 @@
 	}
 </script>
 <!-- /Callback button JS -->
-		
-		
-		<!-- Carousel three on one
+
+
+<!-- Carousel three on one
 		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="50000">
 			<div id="carouselInnerOne" class="carousel-inner"></div>
 			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
@@ -368,44 +377,44 @@
 				<span class="visually-hidden">Next</span>
 			</a>
 		</div> -->
-		
-		
-		
-		
-		<!-- Callback button -->
-		<div class="modal fade" id="callbackButtonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Обратный звонок</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+<!-- Callback button -->
+<div class="modal fade" id="callbackButtonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Обратный звонок</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body py-3 px-3">
+				<div class="row">
+					<div class="col">
+						<p><small>Мы свяжемся с Вами в блажайшее время! Для звонка введите Ваше имя и телефон.</small></p>
 					</div>
-					<div class="modal-body py-3 px-3">
-						<div class="row">
-							<div class="col">
-								<p><small>Мы свяжемся с Вами в блажайшее время! Для звонка введите Ваше имя и телефон.</small></p>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<form method="post" action="https://market-plit.ru/wp-content/themes/site100-lumber/mails/order-mail.php">
+							<input name="name" type="text" class="form-control mb-3" placeholder="Ваше имя" aria-label="Recipient's username" aria-describedby="button-addon2">
+							<input id="phone-mask-1" name="tel" type="text" class="form-control mb-3 telMask" placeholder="Ваш телефон" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+							<div class="text-center">
+								<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
+								<button class="btn btn-corporation-orange text-light btn-corporate-color-1" type="submit" id="button-addon2">Отправить</button>
 							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-8">
-								<form method="post" action="https://market-plit.ru/wp-content/themes/site100-lumber/mails/order-mail.php">
-									<input name="name" type="text" class="form-control mb-3" placeholder="Ваше имя" aria-label="Recipient's username" aria-describedby="button-addon2">
-									<input id="phone-mask-1" name="tel" type="text" class="form-control mb-3 telMask" placeholder="Ваш телефон" aria-label="Recipient's username" aria-describedby="button-addon2" required>
-									<div class="text-center">
-										<input type="hidden" id="g-recaptcha-response-order" name="g-recaptcha-response">
-										<button class="btn btn-corporation-orange text-light btn-corporate-color-1" type="submit" id="button-addon2">Отправить</button>
-									</div>
-								</form>
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /Callback button -->
-		
-	
-	
+	</div>
+</div>
+<!-- /Callback button -->
+
+
+
 <!-- Callback Modal -->
 <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
@@ -527,7 +536,7 @@
 	<button id="btn-close" type="button" class="btn-close btn-close-white" onclick="modalClose();" style="position: absolute; z-index: 9999; top: 15px; right: 15px;"></button>
 	<div id="message">
 		<?php echo $_SESSION['recaptcha']; unset( $_SESSION['recaptcha'] ); ?>
-	</div> 
+	</div>
 </div>
 
 
@@ -553,7 +562,7 @@
 
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script type="text/javascript">
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();
    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -567,9 +576,12 @@
         webvisor:true
    });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/93637636" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+	<div><img src="https://mc.yandex.ru/watch/93637636" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 
 
 </body>
+
 </html>
