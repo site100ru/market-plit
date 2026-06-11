@@ -323,4 +323,8 @@
 			return $description;
 	}
 
-?>
+
+add_filter( 'dgwt/wcas/scripts/fixer', function ( $fixer ) {
+    $fixer['broken_search_ui_hard'] = true;
+    return $fixer;
+} );
