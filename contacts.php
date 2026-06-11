@@ -48,21 +48,26 @@
 						<div style="clear: both;"></div>
 					</li>
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/phone-ico.png">
-						</div>
-						<div class="float-right">
-							<span>Телефон:</span> 8 (495) 792-82-83
-						</div>
+						<a class="text-dark" href="tel:+74957928283">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/phone-ico.png">
+							</div>
+							<div class="float-right">
+								<span>Телефон:</span> 8 (495) 792-82-83
+							</div>
+						</a>
 						<div style="clear: both;"></div>
 					</li>
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/phone-ico.png">
-						</div>
-						<div class="float-right">
-							<span>Телефон:</span> 8 (903) 792-82-83
-						</div>
+						<a class="text-dark" href="tel:+79037928283">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/phone-ico.png">
+							</div>
+							<div class="float-right">
+								<span>Телефон:</span> 8 (903) 792-82-83
+							</div>
+						</a>
+
 						<div style="clear: both;"></div>
 					</li>
 				</ul>
@@ -70,21 +75,25 @@
 			<div class="col-md-4 py-5">
 				<ul style="list-style: none; padding-left: 0;">
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-contacts-ico.png">
-						</div>
-						<div class="float-right">
-							<span>WhatsApp:</span> 8 (903) 792-82-83
-						</div>
+						<a class="text-dark" href="whatsapp://send?phone=+79037928283">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-contacts-ico.png">
+							</div>
+							<div class="float-right">
+								<span>WhatsApp:</span> 8 (903) 792-82-83
+							</div>
+						</a>
 						<div style="clear: both;"></div>
 					</li>
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-contacts-ico.png">
-						</div>
-						<div class="float-right">
-							<span>Telegram:</span> @Plitniy_Market
-						</div>
+						<a class="text-dark" href="tg://resolve?domain=Plitniy_Market">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-contacts-ico.png">
+							</div>
+							<div class="float-right">
+								<span>Telegram:</span> @Plitniy_Market
+							</div>
+						</a>
 						<div style="clear: both;"></div>
 					</li>
 					<!--li class="nav-item mb-3 me-3 text-dark">
@@ -97,21 +106,26 @@
 						<div style="clear: both;"></div>
 					</li-->
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<a href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/max-ico.svg"></a>
-						</div>
-						<div class="float-right">
-							<span>Max:</span> 8 (903) 792-82-83
-						</div>
+						<a class="text-dark" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max-ico.svg">
+							</div>
+							<div class="float-right">
+								<span>Max:</span> 8 (903) 792-82-83
+							</div>
+						</a>
+
 						<div style="clear: both;"></div>
 					</li>
 					<li class="nav-item mb-3 me-3 text-dark">
-						<div class="float-left">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.png">
-						</div>
-						<div class="float-right">
-							<span>Email:</span> 7928283@mail.ru
-						</div>
+						<a class="text-dark" href="mailto:7928283@mail.ru">
+							<div class="float-left">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/email-ico.png">
+							</div>
+							<div class="float-right">
+								<span>Email:</span> 7928283@mail.ru
+							</div>
+						</a>
 						<div style="clear: both;"></div>
 					</li>
 				</ul>
