@@ -11,7 +11,7 @@
 	$headers .= "Return-Path: info@market-plit.ru\r\n";
 	$headers .= "Content-type: text/plain; charset=utf-8\r\n";
 
-	mail("7928283@mail.ru, vasilyev-r@mail.ru", "Вопрос с сайта «Плитный Маркет»", "
+	mail("sidorov-vv3@mail.ru, vasilyev-r@mail.ru", "Вопрос с сайта «Плитный Маркет»", "
 		Клиент: ".$name."\n
 		Email: ".$email."\n
 		Вопрос: ".$mes."\n

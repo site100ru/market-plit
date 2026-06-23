@@ -21,7 +21,7 @@
 			
 			$name     = $_POST['name'];	
 			$phone    = $_POST['phone'];
-			$to       = '7928283@mail.ru, vasilyev-r@mail.ru';
+			$to       = 'sidorov-vv3@mail.ru, vasilyev-r@mail.ru';
 			$subject  = 'Заказ обратного звонка с сайта «Плитный Маркет»';
 			$message  = "Клиент: " . $name ."\n";
 			$message .= "Телефон: " . $phone ."\n";

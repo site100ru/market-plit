@@ -29,7 +29,7 @@
 			$headers .= "Content-type: text/plain; charset=utf-8\r\n";
 
 			if ( isset( $_POST['shtory-order'] ) ) {
-				mail( "7928283@mail.ru, vasilyev-r@mail.ru", "Заявка с сайта «Плитный Маркет»", "
+				mail( "sidorov-vv3@mail.ru, vasilyev-r@mail.ru", "Заявка с сайта «Плитный Маркет»", "
 					Клиент: " . $name ."\n
 					Телефон: " . $tel ."\n
 					Заявка со страницы штор.", $headers
