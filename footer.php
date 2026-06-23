@@ -397,7 +397,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-md-8">
-						<form method="post" action="https://market-plit.ru/wp-content/themes/site100-lumber/mails/order-mail.php">
+						<form method="post" action="<?php echo get_template_directory_uri(); ?>/mails/order-mail.php">
 							<input name="name" type="text" class="form-control mb-3" placeholder="Ваше имя" aria-label="Recipient's username" aria-describedby="button-addon2">
 							<input id="phone-mask-1" name="tel" type="text" class="form-control mb-3 telMask" placeholder="Ваш телефон" aria-label="Recipient's username" aria-describedby="button-addon2" required>
 							<div class="text-center">
