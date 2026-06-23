@@ -24,14 +24,20 @@
 			$tel = $_POST['tel'];
 			$adr = $_POST['adr'];
 			$mes = $_POST['mes'];
-			
+
+			$headers  = "MIME-Version: 1.0\r\n";
+			$headers .= "From: info@market-plit.ru\r\n";
+			$headers .= "Reply-To: info@market-plit.ru\r\n";
+			$headers .= "Return-Path: info@market-plit.ru\r\n";
+			$headers .= "Content-type: text/plain; charset=utf-8\r\n";
+
 			if ( isset( $_POST['shtory-order'] ) ) {
 				mail( "7928283@mail.ru, vasilyev-r@mail.ru", "Заявка на вызов замерщика с сайта «Плитный Маркет»", "
 					Клиент ".$name."\n
 					Телефон: ".$tel."\n
 					Адрес: ".$adr."\n
 					Доп. инф: ".$mes."\n
-					Заявка со страницы штор."
+					Заявка со страницы штор.", $headers
 				);
 			} else {
 				mail( "vasilyev-r@mail.ru", "Заявка на вызов замерщика с сайта «Плитный Маркет»", "
@@ -39,7 +45,7 @@
 					Телефон: ".$tel."\n
 					Адрес: ".$adr."\n
 					Доп. инф: ".$mes."\n
-				" );
+				", $headers );
 			}
 			
 			//mail( "infoskmeridian@mail.ru", "Заявка с сайта meridian-vorot.ru", "Услуга: ".$service."\n\nКлиент ".$name."\n\nТелефон: ".$tel ); 
