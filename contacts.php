@@ -75,7 +75,7 @@
 			<div class="col-md-4 py-5">
 				<ul style="list-style: none; padding-left: 0;">
 					<li class="nav-item mb-3 me-3 text-dark">
-						<a class="text-dark" href="whatsapp://send?phone=+79037928283">
+						<a class="text-dark" href="whatsapp://send?phone=+79037928283" target="_blank">
 							<div class="float-left">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-contacts-ico.png">
 							</div>
@@ -86,7 +86,7 @@
 						<div style="clear: both;"></div>
 					</li>
 					<li class="nav-item mb-3 me-3 text-dark">
-						<a class="text-dark" href="tg://resolve?domain=Plitniy_Market">
+						<a class="text-dark" href="tg://resolve?domain=Plitniy_Market" target="_blank">
 							<div class="float-left">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-contacts-ico.png">
 							</div>
@@ -106,7 +106,7 @@
 						<div style="clear: both;"></div>
 					</li-->
 					<li class="nav-item mb-3 me-3 text-dark">
-						<a class="text-dark" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM">
+						<a class="text-dark" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM" target="_blank">
 							<div class="float-left">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max-ico.svg">
 							</div>

@@ -122,8 +122,9 @@
 											</div>
 										</li>
 										<li class="nav-item d-xl-none pt-3">
-											<a class="ico-button pe-2" href="whatsapp://send?phone=+79632425462"><img src="'.get_template_directory_uri().'/img/ico/whatsapp-ico.svg"></a>
-											<a class="ico-button pe-2" href="tg://resolve?domain=Plitniy_Market"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.svg"></a>
+											<a class="ico-button pe-2" href="whatsapp://send?phone=+79632425462" target="_blank"><img src="'.get_template_directory_uri().'/img/ico/whatsapp-ico.svg"></a>
+											<a class="ico-button pe-2" href="tg://resolve?domain=Plitniy_Market" target="_blank"><img src="'.get_template_directory_uri().'/img/ico/telegram-ico.svg"></a>
+											<a class="ico-button pe-2" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM" target="_blank"><img src="'.get_template_directory_uri().'/img/ico/max.png"></a>
 											<!--a class="ico-button pe-2" href="vk.com/stocklinecompany"><img src="img/ico/inst-ico.png"></a-->
 											<!--a class="ico-button" href="#"><img src="/img/ico/vk-ico.png"></a-->
 										</li>
@@ -202,14 +203,14 @@
 			<div class="col-md-8">
 				<ul class="nav justify-content-md-center mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link ico-button px-0" href="whatsapp://send?phone=+79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.png"></a>
+						<a class="nav-link ico-button px-0" href="whatsapp://send?phone=+79037928283" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/whatsapp-ico.png"></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link ico-button pe-0" href="tg://resolve?domain=Plitniy_Market"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
+						<a class="nav-link ico-button pe-0" href="tg://resolve?domain=Plitniy_Market" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/telegram-ico.png"></a>
 					</li>
 					<li class="nav-item">
 						<!--a class="nav-link ico-button pe-0" href="viber://chat?number=79037928283"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/viber-circle-ico.svg"></a-->
-						<a class="nav-link ico-button pe-0" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png"></a>
+						<a class="nav-link ico-button pe-0" href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/max.png"></a>
 					</li>
 					<!--li class="nav-item">
 						<a class="nav-link ico-button" href="https://vk.com/stocklinecompany"><img src="<?php echo get_template_directory_uri(); ?>/img/ico/vk-ico.png"></a>
@@ -284,13 +285,18 @@
 		</a>
 	</div>
 	<div id="whatsappBtn" class="callback-whatsapp-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
-		<a href="whatsapp://send?phone=+79037928283">
+		<a href="whatsapp://send?phone=+79037928283" target="_blank">
 			<div class="callback-whatsapp-button-ico"></div>
 		</a>
 	</div>
 	<div id="telegramBtn" class="callback-telegram-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
-		<a href="tg://resolve?domain=Plitniy_Market">
+		<a href="tg://resolve?domain=Plitniy_Market" target="_blank">
 			<div class="callback-telegram-button-ico"></div>
+		</a>
+	</div>
+	<div id="maxBtn" class="callback-max-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Max">
+		<a href="https://max.ru/u/f9LHodD0cOJwrqY4cZNGHTTYSG4w_OHtyKzlpKJHRTBMWuYxgczGEhbm-nM" target="_blank">
+			<div class="callback-max-button-ico"></div>
 		</a>
 	</div>
 </div>
@@ -333,6 +339,9 @@
 			
 			document.getElementById('telegramBtn').style.top = "-240px";
 			document.getElementById('telegramBtn').style.opacity = "1";
+
+			document.getElementById('maxBtn').style.top = "-300px";
+			document.getElementById('maxBtn').style.opacity = "1";
 		} else {
 			document.getElementById('callbackBtn').style.animation = "waves linear 2s infinite";
 			document.getElementById('btnIco').style.animation = "change linear 16s infinite";
@@ -359,6 +368,9 @@
 			
 			document.getElementById('telegramBtn').style.top = "0px";
 			document.getElementById('telegramBtn').style.opacity = "0";
+
+			document.getElementById('maxBtn').style.top = "0px";
+			document.getElementById('maxBtn').style.opacity = "0";
 		}
 	}
 </script>
@@ -531,11 +543,11 @@
 
 
 <!-- Показываем сообщение об успешной отправки -->
-<div style="display: <?php echo $_SESSION['display'] ?>;" onclick="modalClose();">
-	<div id="background-msg" style="display: <?php echo $_SESSION['display'] ?>;"></div>
+<div style="display: <?php echo $_SESSION['display'] ?? 'none'; ?>;" onclick="modalClose();">
+	<div id="background-msg" style="display: <?php echo $_SESSION['display'] ?? 'none'; ?>;"></div>
 	<button id="btn-close" type="button" class="btn-close btn-close-white" onclick="modalClose();" style="position: absolute; z-index: 9999; top: 15px; right: 15px;"></button>
 	<div id="message">
-		<?php echo $_SESSION['recaptcha']; unset( $_SESSION['recaptcha'] ); ?>
+		<?php echo $_SESSION['recaptcha'] ?? ''; if (isset($_SESSION['recaptcha'])) { unset( $_SESSION['recaptcha'] ); } ?>
 	</div>
 </div>
 
