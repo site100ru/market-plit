@@ -97,7 +97,9 @@
 				</div>
 				<div class="col-2 text-end">
 					<a href="tel:+79037928283" class="header-phone"> 8 <span>(903)</span> 792-82-83</a>
+					<?php /* Кнопка «Обратный звонок» отключена
 					<a href="#" class="header-callback" data-bs-toggle="modal" data-bs-target="#callbackModal"> Обратный звонок </a>
+					*/ ?>
 				</div>
 			</div>
 		</div>

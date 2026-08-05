@@ -274,11 +274,13 @@
 		<div id="btnIco" class="callback-button-ico"></div>
 	</div>
 
+	<?php /* Кнопка «Перезвонить Вам?» отключена
 	<div id="formBtn" class="callback-form-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Перезвонить Вам?">
 		<a data-bs-toggle="modal" data-bs-target="#callbackButtonModal">
 			<div class="callback-form-button-ico"></div>
 		</a>
 	</div>
+	*/ ?>
 	<div id="phoneBtn" class="callback-phone-button" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-custom-class="custom-tooltip" data-bs-title="Позвонить">
 		<a href="tel:+79037928283">
 			<div class="callback-phone-button-ico"></div>
@@ -307,10 +309,10 @@
 <script>
 	function callbackButtonClick() {
 		
-		let formBtn = document.getElementById('formBtn').style.top;
-		
-		
-		if ( formBtn == "0px" || formBtn == 0 ) {
+		let firstBtn = document.getElementById('phoneBtn').style.top;
+
+
+		if ( firstBtn == "0px" || firstBtn == 0 ) {
 			document.getElementById('callbackBtn').style.animation = "none";
 			document.getElementById('btnIco').style.animation = "change2 linear .5s";
 			document.getElementById('btnIco').style.webkitAnimation = "change2 linear .5s";
@@ -328,19 +330,16 @@
 			document.getElementById('btnIco').style.backgroundSize = "cover";
 			
 			
-			document.getElementById('formBtn').style.top = "-60px";
-			document.getElementById('formBtn').style.opacity = "1";
-			
-			document.getElementById('phoneBtn').style.top = "-120px";
+			document.getElementById('phoneBtn').style.top = "-60px";
 			document.getElementById('phoneBtn').style.opacity = "1";
-			
-			document.getElementById('whatsappBtn').style.top = "-180px";
+
+			document.getElementById('whatsappBtn').style.top = "-120px";
 			document.getElementById('whatsappBtn').style.opacity = "1";
-			
-			document.getElementById('telegramBtn').style.top = "-240px";
+
+			document.getElementById('telegramBtn').style.top = "-180px";
 			document.getElementById('telegramBtn').style.opacity = "1";
 
-			document.getElementById('maxBtn').style.top = "-300px";
+			document.getElementById('maxBtn').style.top = "-240px";
 			document.getElementById('maxBtn').style.opacity = "1";
 		} else {
 			document.getElementById('callbackBtn').style.animation = "waves linear 2s infinite";
@@ -356,9 +355,6 @@
 			document.getElementById('btnIco').style.webkitBackgroundSize = "cover";
 			document.getElementById('btnIco').style.backgroundSize = "cover";
 			
-			
-			document.getElementById('formBtn').style.top = "0px";
-			document.getElementById('formBtn').style.opacity = "0";
 			
 			document.getElementById('phoneBtn').style.top = "0px";
 			document.getElementById('phoneBtn').style.opacity = "0";
@@ -393,7 +389,8 @@
 
 
 
-<!-- Callback button -->
+<!-- Callback button (отключена вместе с кнопкой «Перезвонить Вам?») -->
+<?php if ( false ) : ?>
 <div class="modal fade" id="callbackButtonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
@@ -423,11 +420,13 @@
 		</div>
 	</div>
 </div>
+<?php endif; ?>
 <!-- /Callback button -->
 
 
 
-<!-- Callback Modal -->
+<!-- Callback Modal (отключена вместе с кнопкой «Обратный звонок») -->
+<?php if ( false ) : ?>
 <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered">
 		<form method="post" action="<?php echo get_template_directory_uri(); ?>/mails/callback-mail.php" class="modal-content">
@@ -456,6 +455,7 @@
 		</form>
 	</div>
 </div>
+<?php endif; ?>
 <!-- /Callback Modal -->
 
 

@@ -19,9 +19,11 @@
 		// Если вероятность робота более 0.5, то считаем отправителя человеком и выполняем отправку почты
 		if( $Return->success == true && $Return->score > 1 ){ */
 			
-			$name     = $_POST['name'];	
+			$name     = $_POST['name'];
 			$phone    = $_POST['phone'];
-			$to       = '7928283@mail.ru, vasilyev-r@mail.ru';
+			/* Обработчик отключён: заявки с кнопки «Обратный звонок» не отправляются.
+			   Прежние получатели: 7928283@mail.ru, vasilyev-r@mail.ru */
+			$to       = '';
 			$subject  = 'Заказ обратного звонка с сайта «Плитный Маркет»';
 			$message  = "Клиент: " . $name ."\n";
 			$message .= "Телефон: " . $phone ."\n";
@@ -32,8 +34,9 @@
 			/* Проверям что заполнено поле с телефоном */
 			if ( $_POST['phone'] ) {
 				// Если поле с телефоно заполненно
-				mail( $to, $subject, $message, $headers);
-				
+				// Отправка письма отключена
+				// mail( $to, $subject, $message, $headers);
+
 				$_SESSION['win'] = 1;
 				$_SESSION['recaptcha'] = '<p class="text-light">Спасибо за обращение в компанию «Плитный&nbsp;Маркет». В&#160;ближайшее время с Вами свяжется наш специалист.</p>';
 				header("Location: ".$_SERVER['HTTP_REFERER']);
