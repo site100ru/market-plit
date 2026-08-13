@@ -53,6 +53,7 @@
 						</div>
 						<div class="col-lg-3 text-end col-xxl-2">
 							<a href="tel:+79037928283" class="contacts-phone"> 8 <span>(903)</span> 792-82-83</a>
+							<a href="tel:+74957928283" class="contacts-phone d-block mt-2"> 8 <span>(495)</span> 792-82-83</a>
 						</div>
 					</div>
 					<!-- End Desktop version -->
@@ -88,6 +89,7 @@
 						</div>
 						<div class="col-12">
 							<a href="tel:+79037928283" class="contacts-phone"> 8 <span>(903)</span> 792-82-83</a>
+							<a href="tel:+74957928283" class="contacts-phone d-block mt-2"> 8 <span>(495)</span> 792-82-83</a>
 						</div>
 					</div>
 					<!-- END Mobail version -->
@@ -258,8 +260,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div id="company-in-footer">©2023 «Плитный Маркет»</div>
-					<div id="im-in-footer">Создание и продвижение сайтов: <a href="https://сайт100.рф" class="text-light">сайт100.рф</a></div>
+					<div id="company-in-footer">©<?php echo date('Y'); ?> «Плитный Маркет»</div>
+					<div id="im-in-footer">Создание и продвижение сайтов: <a href="https://site100.ru" class="text-light" target="_blank">site100.ru</a></div>
 				</div>
 			</div>
 		</div>

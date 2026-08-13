@@ -111,7 +111,7 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/img/ico/max-ico.svg">
 							</div>
 							<div class="float-right">
-								<span>Max:</span> 8 (903) 792-82-83
+								<span>Max:</span> 8 (929) 926-23-01
 							</div>
 						</a>
 
